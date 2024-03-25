@@ -112,7 +112,7 @@ export function Record() {
           <div>Records</div>
         </div>
         <div className="flex items-center gap-5  ">
-          <button className="btn w-[120px] h-[12px] rounded-full text-white bg-blue-600 flex items-center">
+          <button className="btn w-[120px] h-[12px] rounded-full text-whnter">
             + Record
           </button>
           <div>
@@ -125,9 +125,12 @@ export function Record() {
           <div className="w-[282px] bg-slate-50 flex flex-col mr-20 rounded-lg mt-8">
             <h3 className="ml-5 mt-5 font-semibold text-2xl">Records</h3>
             <div>
-              <button onClick={function JumpSignUp() {
+              <button
+                onClick={function JumpSignUp() {
                   location.href = "/add_record";
-                }} className="btn w-[250px] h-[32px] rounded-full text-white bg-blue-600 flex justify-center items-center mt-5 ml-4">
+                }}
+                className="btn w-[250px] h-[32px] rounded-full text-whcenter items-center mt-5 ml-4"
+              >
                 + Add
               </button>
             </div>
@@ -296,8 +299,6 @@ export function Record() {
               </div>
               <div className="flex ml-5 w-[214px] mt-3">
                 <img src="./white.svg" alt="" />
-                <img src="./blue.svg" alt="" />
-                <img src="./white.svg" alt="" />
               </div>
               <div className="flex justify-between mb-5">
                 <p className="ml-5">0</p>
@@ -358,11 +359,7 @@ export function Record() {
                 <div className="flex  gap-5 ml-5 items-center">
                   <input type="checkbox" defaultChecked className="checkbox" />
                   <div className="flex items-center">
-                    <img
-                      className="w-[40px] h-[40px]"
-                      src="./Ellipse 124.svg"
-                      alt=""
-                    />
+                    <img className="p-2 bg-blue-700 rounded-[50%]" src="./House.svg" alt="" />
 
                     <div className="flex-col ml-5 flex items-center">
                       <h6>Lending & Renting</h6>
@@ -379,8 +376,8 @@ export function Record() {
                   <input type="checkbox" defaultChecked className="checkbox" />
                   <div className="flex items-center">
                     <img
-                      className="w-[40px] h-[40px]"
-                      src="./orange.svg"
+                      className=" p-2 bg-orange-500 rounded-[50%]"
+                      src="./ForkKnife.svg"
                       alt=""
                     />
 
@@ -399,8 +396,8 @@ export function Record() {
                   <input type="checkbox" defaultChecked className="checkbox" />
                   <div className="flex items-center">
                     <img
-                      className="w-[40px] h-[40px]"
-                      src="./orange.svg"
+                      className="p-2 bg-orange-500 rounded-[50%] "
+                      src="./ForkKnife.svg"
                       alt=""
                     />
 
@@ -419,8 +416,8 @@ export function Record() {
                   <input type="checkbox" defaultChecked className="checkbox" />
                   <div className="flex items-center">
                     <img
-                      className="w-[40px] h-[40px]"
-                      src="./orange.svg"
+                      className=" p-2 bg-orange-500 rounded-[50%]"
+                      src="./ForkKnife.svg"
                       alt=""
                     />
 
@@ -439,8 +436,8 @@ export function Record() {
                   <input type="checkbox" defaultChecked className="checkbox" />
                   <div className="flex items-center">
                     <img
-                      className="w-[40px] h-[40px]"
-                      src="./orange.svg"
+                      className=" p-2 bg-orange-500 rounded-[50%]"
+                      src="./ForkKnife.svg"
                       alt=""
                     />
 
@@ -461,12 +458,7 @@ export function Record() {
                 <div className="flex  gap-5 ml-5 items-center">
                   <input type="checkbox" defaultChecked className="checkbox" />
                   <div className="flex items-center">
-                    <img
-                      className="w-[40px] h-[40px]"
-                      src="./orange.svg"
-                      alt=""
-                    />
-                    
+                    <img className=" " src="./ForkKnife.svg" alt="" />
 
                     <div className="flex-col ml-5 flex items-center">
                       <h6>Lending & Renting</h6>
@@ -483,8 +475,8 @@ export function Record() {
                   <input type="checkbox" defaultChecked className="checkbox" />
                   <div className="flex items-center">
                     <img
-                      className="w-[40px] h-[40px]"
-                      src="./orange.svg"
+                      className="p-2 bg-orange-500 rounded-[50%] "
+                      src="./ForkKnife.svg"
                       alt=""
                     />
 
@@ -503,8 +495,8 @@ export function Record() {
                   <input type="checkbox" defaultChecked className="checkbox" />
                   <div className="flex items-center">
                     <img
-                      className="w-[40px] h-[40px]"
-                      src="./orange.svg"
+                      className=" p-2 bg-orange-500 rounded-[50%]"
+                      src="./ForkKnife.svg"
                       alt=""
                     />
 
@@ -523,8 +515,8 @@ export function Record() {
                   <input type="checkbox" defaultChecked className="checkbox" />
                   <div className="flex items-center">
                     <img
-                      className="w-[40px] h-[40px]"
-                      src="./orange.svg"
+                      className="p-2 bg-orange-500 rounded-[50%] "
+                      src="./ForkKnife.svg"
                       alt=""
                     />
 
@@ -543,8 +535,8 @@ export function Record() {
                   <input type="checkbox" defaultChecked className="checkbox" />
                   <div className="flex items-center">
                     <img
-                      className="w-[40px] h-[40px]"
-                      src="./orange.svg"
+                      className="p-2 bg-orange-500 rounded-[50%] "
+                      src="./ForkKnife.svg"
                       alt=""
                     />
 
@@ -563,8 +555,8 @@ export function Record() {
                   <input type="checkbox" defaultChecked className="checkbox" />
                   <div className="flex items-center">
                     <img
-                      className="w-[40px] h-[40px]"
-                      src="./orange.svg"
+                      className="p-2 bg-orange-500 rounded-[50%] "
+                      src="./ForkKnife.svg"
                       alt=""
                     />
 

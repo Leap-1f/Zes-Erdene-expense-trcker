@@ -156,7 +156,7 @@ export function Dashboard() {
             <div className="flex-col">
               <div className="flex w-[564px] h-[56px] bg-white rounded-t-lg gap-3 items-center">
                 <div className=" pl-5 flex items-center">
-                  <img src="./Ellipse 124.svg" alt="" />
+                  <img src="./House.svg" alt="" />
                 </div>
                 <div className="font-semibold text-base ">Total Expenses</div>
               </div>
@@ -211,8 +211,8 @@ export function Dashboard() {
               <div className="flex items-center">
                 <div className="flex ml-5  items-center">
                   <img
-                    className="w-[40px] h-[40px]"
-                    src="./Ellipse 124.svg"
+                    className="p-2 bg-blue-700 rounded-[50%]"
+                    src="./House.svg"
                     alt=""
                   />
                 </div>
@@ -229,8 +229,8 @@ export function Dashboard() {
               <div className="flex items-center">
                 <div className="flex ml-5 items-center">
                   <img
-                    className="w-[40px] h-[40px]"
-                    src="./Ellipse 124.svg"
+                    className="p-2 bg-blue-700 rounded-[50%]"
+                    src="./House.svg"
                     alt=""
                   />
                 </div>
@@ -247,8 +247,8 @@ export function Dashboard() {
               <div className="flex items-center">
                 <div className="flex ml-5 items-center">
                   <img
-                    className="w-[40px] h-[40px]"
-                    src="./Ellipse 124.svg"
+                    className="p-2 bg-blue-700 rounded-[50%]"
+                    src="./House.svg"
                     alt=""
                   />
                 </div>
@@ -265,8 +265,8 @@ export function Dashboard() {
               <div className="flex items-center">
                 <div className="flex ml-5 items-center">
                   <img
-                    className="w-[40px] h-[40px]"
-                    src="./Ellipse 124.svg"
+                    className="p-2 bg-blue-700 rounded-[50%]"
+                    src="./House.svg"
                     alt=""
                   />
                 </div>
@@ -283,8 +283,8 @@ export function Dashboard() {
               <div className="flex items-center">
                 <div className="flex ml-5 items-center">
                   <img
-                    className="w-[40px] h-[40px]"
-                    src="./Ellipse 124.svg"
+                    className="p-2 bg-blue-700 rounded-[50%]"
+                    src="./House.svg"
                     alt=""
                   />
                 </div>
