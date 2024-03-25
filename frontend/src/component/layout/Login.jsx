@@ -40,7 +40,7 @@ export function Login() {
             <div>
               <button
                 onClick={function JumpSignUp() {
-                  location.href = "http://localhost:3000/signup";
+                  location.href = "/signup";
                 }}
                 className="text-blue-600"
               >
